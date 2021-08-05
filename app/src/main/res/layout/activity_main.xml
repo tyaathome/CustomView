@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_taglayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="TagLayout"
+        />
+
+    <Button
+        android:id="@+id/btn_scaleableimage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ScaleableImage"
+        app:layout_constraintTop_toBottomOf="@id/btn_taglayout"
+        />
+
+    <Button
+        android:id="@+id/btn_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MyViewPager"
+        app:layout_constraintTop_toBottomOf="@id/btn_scaleableimage"
+        />
+
+    <Button
+        android:id="@+id/btn_nestedview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MyNestedView"
+        app:layout_constraintTop_toBottomOf="@id/btn_viewpager"
+        />
+
+    <Button
+        android:id="@+id/btn_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MyTextView"
+        app:layout_constraintTop_toBottomOf="@id/btn_nestedview"
+        />
+
+    <Button
+        android:id="@+id/btn_multitouch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Multitouch"
+        app:layout_constraintTop_toBottomOf="@id/btn_textview"
+        />
+
+    <Button
+        android:id="@+id/btn_rotateimage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ImageFlipView"
+        app:layout_constraintTop_toBottomOf="@id/btn_multitouch"
+        />
+
+    <Button
+        android:id="@+id/btn_scalelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ScaleLayout"
+        app:layout_constraintTop_toBottomOf="@id/btn_rotateimage"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
